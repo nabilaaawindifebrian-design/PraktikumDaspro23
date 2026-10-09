@@ -31,7 +31,7 @@ public class StudiKasus223 {
          }} else {{
             status = "jenis kegiatan belum diproses";
          }
-        System.out.print("Status: " +status);
+         System.out.print("Status: " +status);
         
         }
        
