@@ -28,15 +28,38 @@ public class StudiKasus223 {
                  }
             } else {
                 status = "Tidak memperoleh dana penghargaan (hanya untuk juara 1/2/3) ";
-         }} else {{
-            status = "jenis kegiatan belum diproses";
-         }
-         System.out.print("Status: " +status);
-        
+
+            }} else if (jenisKegiatan.equalsIgnoreCase("PKM")){{
+
+            } 
+            System.out.println ("Masukkan status pendanaan: ");
+            statusPendanaan = sc.nextInt();
+
+            if (statusPendanaan == 1) {
+
+                
+                if (jumlahDokumen == 4) {
+                    status = "Berhak memperoleh dana penghargaan.";
+                } else {
+                    status = "Dokumen tidak lengkap (kurang " + (4 - jumlahDokumen) + " dokumen). Dana penghargaan tidak diberikan.";
+                }
+            } else {
+                status = "Tidak memperoleh dana penghargaan (PKM tidak lolos pendanaan)";
+            }
+
+        } else {
+            status = "Tidak memperoleh dana penghargaan " + "(jenis kegiatan tidak termasuk ketentuan).";
         }
-       
+        System.out.println("Status : " +status);
+
+        
     }
-}
+}    
+         
+        
+        
+        
+  
 
 
 
