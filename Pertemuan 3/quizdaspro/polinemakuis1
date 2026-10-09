@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class polinemakuis1{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int jumlah_ayam;
+        int rata_rata_telur_perbulan;
+        int total_telur_sebulan;
+        int jumlah_tray_penuh;
+        int sisa_telur_eceran;
+        int berat_total_telur;
+        double total-telur;
+        double jumlah_tray;
+        double telur_eceran;
+        int bil_pecahann;
+
+
+
+
+        System.out.println("hitung telur perbulan: ");
+        rata_rata_telur_perbulan = input.nextInt();
+        System.out.println("total telur sebulan: ");
+        total_telur_sebulan = input.nextInt();
+        System.out.println("jumlah tray: ");
+        jumlah_tray_penuh = input.nextInt();
+        System.out.println("sisa telur eceran: ");
+        sisa_telur_eceran = input.nextInt();
+        System.out.println("berat total perkg: ");
+        berat_total_telur = input.nextInt();
+        System.out.println("jmlh blok kandang")
+        blok_kandang = input.nextDouble
+
+        rata_rata_telur_perbulan = 25 * jumlah_ayam;
+        total_telur_sebulan = rata_rata_telur_perbulan * blok_kandang;
+        jumlah_tray_penuh = rata_rata_telur_perbulan + sisa_telur_eceran;
+        berat_total_telur = (62 / 1000) * blok_kandang;
+
+        System.out.println("total telur: " +total_telur);
+        System.out.println("total jumlah tray:" +jumlah_tray);
+        System.out.println("telur eceran: " +telur_eceran);
+        Syst
+        
+
+
+    }
+}
