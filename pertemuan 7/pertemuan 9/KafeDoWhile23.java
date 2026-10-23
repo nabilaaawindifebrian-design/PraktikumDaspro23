@@ -1,3 +1,6 @@
+//hargaKopi = 10000 + (23 mod 5) × 1000 = 13000 → gantikan Rp12.000 pada soal
+//hargaTeh = 5000 + (23 mod 4) × 1000 = 8000 → gantikan Rp7.000 pada soal
+//hargaRoti = 15000 + (23 mod 6) × 1000 = 20000 → gantikan Rp20.000 pada soal
 import java.util.Scanner;
 public class KafeDoWhile23 {
     public static void main(String[] args){

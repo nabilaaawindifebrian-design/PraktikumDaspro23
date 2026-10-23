@@ -1,3 +1,6 @@
+//Kategori nilai huruf (A/B+/B/C+/C/D/E) mengikuti skala penilaian resmi kampus sehingga TIDAK diubah.
+//Pada Pertanyaan no. 3, ganti angka "19" pada soal dengan 15 + (23 mod 10) = 18 → lalu jawab ulang pertanyaannya memakai angka Anda sendir
+
 import java.util.Scanner;
 
 public class siakadwhile23 {
