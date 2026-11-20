@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class SortNilai23 {
     public static void main(String[] args) {
 
-        int[] nilai = {43, 58, 35, 73, 23, 48};
+        int[] nilai = {78, 65, 90, 55, 88, 72};
 
         System.out.println("Sebelum diurutkan: " + Arrays.toString(nilai));
 
