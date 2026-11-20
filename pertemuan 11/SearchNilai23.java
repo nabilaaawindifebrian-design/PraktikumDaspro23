@@ -27,7 +27,7 @@ public class SearchNilai23 {
         }
 
         if (!ditemukan) {
-            System.out.println("Nilai " + key + " tidak ditemukan dalam array.");
+            System.out.println("Maaf, Nilai " + key + " tidak ditemukan dalam daftar nilai mahasiswa.");
         }
 
        
