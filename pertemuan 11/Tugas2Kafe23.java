@@ -1,8 +1,7 @@
-// (2 + (23 mod 4)) = 5
 import java.util.Scanner;
 public class Tugas2Kafe23 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         String[] menu = {
             "Nasi Goreng",
@@ -22,8 +21,8 @@ public class Tugas2Kafe23 {
             System.out.println(i + ". " + menu[i] + " - Rp" + harga[i]);
         }
 
-        System.out.print("Masukkan nama menu yang ingin dicari: ");
-        String cari = sc.nextLine();
+        System.out.print("\nMasukkan nama menu yang ingin dicari: ");
+        String cari = input.nextLine();
 
         boolean ditemukan = false;
 
@@ -40,9 +39,9 @@ public class Tugas2Kafe23 {
             System.out.println("Menu tidak tersedia.");
         }
 
-        System.out.print("Masukkan jumlah item yang dipesan: ");
-        int jumlah = sc.nextInt();
-        sc.nextLine();
+        System.out.print("\nMasukkan jumlah item yang dipesan: ");
+        int jumlah = input.nextInt();
+        input.nextLine();
 
         String[] pesanan = new String[jumlah];
         int[] hargaPesanan = new int[jumlah];
@@ -55,7 +54,7 @@ public class Tugas2Kafe23 {
 
             while (!valid) {
                 System.out.print("Masukkan nama menu pesanan ke-" + (i + 1) + ": ");
-                String nama = sc.nextLine();
+                String nama = input.nextLine();
 
                 for (int j = 0; j < menu.length; j++) {
                     if (menu[j].equalsIgnoreCase(nama)) {
@@ -75,7 +74,7 @@ public class Tugas2Kafe23 {
             }
         }
 
-        System.out.println("=== STRUK PEMESANAN ===");
+        System.out.println("\n=== STRUK PEMESANAN ===");
 
         for (int i = 0; i < pesanan.length; i++) {
             System.out.println((i + 1) + ". " + pesanan[i] + " - Rp" + hargaPesanan[i]);
@@ -84,6 +83,6 @@ public class Tugas2Kafe23 {
         System.out.println("-------------------------");
         System.out.println("Total biaya: Rp" + total);
 
-       
+        input.close();
     }
 }
