@@ -16,6 +16,10 @@ public class ArrayNilai23 {
                 System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
             }
         }
+        for (int nilai : nilaiAkhir) {
+            String status = (nilai > 70) ? "LULUS" : "TIDAK LULUS";
+            System.out.println(nilai + " (" + status + ")");
+        }
 
     }
 }
