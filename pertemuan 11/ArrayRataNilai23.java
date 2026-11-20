@@ -42,6 +42,13 @@ public class ArrayRataNilai23 {
             System.out.println("Predikat kelas: PERLU PENDAMPINGAN");
         }
 
+        for (int i = 0; i < nilaiMhs.length; i++) {
+            if (nilaiMhs[i] > 70) {
+            jumlahLulus++;
+            }
+        }
+        System.out.println("Jumlah mahasiswa lulus: " + jumlahLulus);               
+
       
     }
     
