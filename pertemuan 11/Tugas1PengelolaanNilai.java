@@ -1,3 +1,4 @@
+//(5 + (23 mod 11)) = 6s
 import java.util.Scanner;
 public class Tugas1PengelolaanNilai {
     public static void main(String[] args) {
